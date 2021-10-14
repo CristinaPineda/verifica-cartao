@@ -1,4 +1,5 @@
 import React from "react";
+import PaymentForm from "./components/cartao";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header>
         <h1>Verifica cartões</h1>
       </header>
+      <PaymentForm />
     </div>
   );
 }
