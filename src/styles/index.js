@@ -4,21 +4,25 @@ import 'react-credit-cards/es/styles-compiled.css';
 export const Header = styled.header`
   display: flex;
   flex-direction: column;
-  color: rgb(28,28,28);
-  margin: 0 2rem;
-
+  padding-top: 10px;
+  color: white;
+  margin: 0;
+  background-color: dimgray;
+  border: 1px solid black;
+  
   @media (min-width: 768px) {
-    margin: 3rem 2rem;
-
+    margin: 3rem 0;
+    
     p {
       font-size: 20px;
     }
   }
 `;
-
-export const Content = styled.div`
+  
+  export const Content = styled.div`
   display: flex;
   flex-direction: column;
+  background-color: whitesmoke;
   margin: 2rem;
   padding: 1.5rem;
   border: 2px solid gray;
@@ -34,12 +38,15 @@ export const Content = styled.div`
 `;
 
 export const Form = styled.form`
-  margin-top: 1rem;
-  width: 100%;
+margin-top: 1rem;
+width: 100%;
 
+  div {
+    background-color: whitesmoke;
+  }
+  
   input, button {
     margin-bottom: 0.5rem;
-    background-color: gainsboro;
     border-radius: 5px;
     padding: 0.4rem;
     font-size: 1rem;

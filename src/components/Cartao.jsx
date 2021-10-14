@@ -47,7 +47,7 @@ export default function Cartao() {
             <input
               type="number"
               name="expiry"
-              placeholder="Validade 'MM/AA'"
+              placeholder="Validade: 'MM/AA'"
               value={expiry}
               maxLength="4"
               onChange={(e) => setExpiry(e.target.value)}
@@ -62,8 +62,8 @@ export default function Cartao() {
               onChange={(e) => setCvc(e.target.value)}
               onFocus={(e) => setFocus(e.target.name)}
             />
+            <button type="button">Pagar</button>
           </div>
-          <button type="button">Pagar</button>
         </Form>
       </div>
     </Content>

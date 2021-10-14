@@ -5,7 +5,7 @@ export default function HeaderApp() {
   return(
     <Header>
       <h1>Verifica cartão </h1>
-      <p>Vamos validar seu cartão para finalizar sua compra!</p>
+      <p>Preencha os dados do cartão</p>
     </Header>
   )
 };
