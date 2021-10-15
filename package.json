@@ -1,9 +1,6 @@
 {
   "name": "valida-cartao",
   "version": "0.1.0",
-  "engines": {
-    "node": "14.18.0"
-  },
   "private": true,
   "homepage": "https://cristinapineda.github.io/verifica-cartao",
   "main": "src/index.js",
