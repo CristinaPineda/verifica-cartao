@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/verifica-cartao/static/css/main.4fbd3008.chunk.css",
+    "main.js": "/verifica-cartao/static/js/main.f62a2943.chunk.js",
+    "main.js.map": "/verifica-cartao/static/js/main.f62a2943.chunk.js.map",
+    "runtime-main.js": "/verifica-cartao/static/js/runtime-main.1a1ff1cb.js",
+    "runtime-main.js.map": "/verifica-cartao/static/js/runtime-main.1a1ff1cb.js.map",
+    "static/css/2.4096cf77.chunk.css": "/verifica-cartao/static/css/2.4096cf77.chunk.css",
+    "static/js/2.38f63ae4.chunk.js": "/verifica-cartao/static/js/2.38f63ae4.chunk.js",
+    "static/js/2.38f63ae4.chunk.js.map": "/verifica-cartao/static/js/2.38f63ae4.chunk.js.map",
+    "index.html": "/verifica-cartao/index.html",
+    "static/css/2.4096cf77.chunk.css.map": "/verifica-cartao/static/css/2.4096cf77.chunk.css.map",
+    "static/css/main.4fbd3008.chunk.css.map": "/verifica-cartao/static/css/main.4fbd3008.chunk.css.map",
+    "static/js/2.38f63ae4.chunk.js.LICENSE.txt": "/verifica-cartao/static/js/2.38f63ae4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a1ff1cb.js",
+    "static/css/2.4096cf77.chunk.css",
+    "static/js/2.38f63ae4.chunk.js",
+    "static/css/main.4fbd3008.chunk.css",
+    "static/js/main.f62a2943.chunk.js"
+  ]
+}
