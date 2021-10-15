@@ -143,6 +143,8 @@ export const FooterApp = styled.footer`
       }
     }
 
+    
+
   }
 
 
