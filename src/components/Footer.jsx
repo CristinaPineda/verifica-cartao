@@ -42,9 +42,9 @@ export default function Footer() {
         <div>
           <p>Cristina Pineda &copy; 2021</p>
         </div>
-          <div>
-            <p>Trabalhe comigo<BsCheck2 className="icons"/></p>
-          </div>
+        <div>
+          <p>Trabalhe comigo<BsCheck2 className="icons"/></p>
+        </div>
       </div>
     </FooterApp>
   )

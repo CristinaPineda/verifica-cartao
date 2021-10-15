@@ -128,5 +128,22 @@ export const FooterApp = styled.footer`
     }
   }
 
+  @media (min-width: 768px) {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+    
+    .footer-top {
+      margin: 0 10px;
+      width: 30%;
+
+      .icons {
+        font-size: 25px;
+      }
+    }
+
+  }
+
 
 `;
