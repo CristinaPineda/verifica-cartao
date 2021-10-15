@@ -105,6 +105,7 @@ export const FooterApp = styled.footer`
     .icons {
       color: white;
       font-size: 20px;
+      margin-bottom: 8px;
     }
   }
 
@@ -113,6 +114,10 @@ export const FooterApp = styled.footer`
     display: flex;
     flex-direction: column;
     margin:auto;
+
+    h4 {
+      font-size: 18px;
+    }
     
     ul {
       display: flex;
@@ -129,13 +134,13 @@ export const FooterApp = styled.footer`
   }
 
   @media (min-width: 768px) {
-    margin-top: 100px;
+    margin-top: 11rem;
     display: flex;
     flex-direction: row;
-
+    bottom: 0;
     
     .footer-top {
-      margin: 0 10px;
+      margin: auto;
       width: 30%;
 
       .icons {
@@ -143,9 +148,21 @@ export const FooterApp = styled.footer`
       }
     }
 
-    
+    .footer-details {
+      border-top: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      width: 25%;
+    }
 
+    .footer-bottom {
+      border-top: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: 30%;
+    }
   }
-
-
 `;
