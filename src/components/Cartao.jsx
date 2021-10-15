@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Cards from 'react-credit-cards';
 import { Content, Form } from '../styles';
-
+import '../styles/style.scss';
 
 export default function Cartao() {
   const [number, setNumber] = useState('');
@@ -12,7 +12,7 @@ export default function Cartao() {
 
   return(
     <Content>
-      <div>
+      <div className="card">
         <Cards
           cvc={cvc}
           expiry={expiry}

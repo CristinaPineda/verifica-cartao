@@ -1,0 +1,15 @@
+$rccs-size: 16em;
+$number-position: 5%;
+
+.rccs {
+  width: auto;
+  margin: auto 0;
+}
+
+.rccs__card {
+  width: $rccs-size;
+}
+
+.rccs__number {
+  left: $number-position;
+}
