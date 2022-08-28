@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Cards from 'react-credit-cards';
+import Cards from 'react-credit-cards-2';
 import { Content, Form } from '../styles';
 import '../styles/style.scss';
 
