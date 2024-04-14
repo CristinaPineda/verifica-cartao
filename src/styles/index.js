@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import 'react-credit-cards-2/es/styles-compiled.css';
+import 'react-credit-cards-2/dist/es/styles-compiled.css';
 
 export const Header = styled.header`
   display: flex;
