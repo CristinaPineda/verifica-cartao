@@ -65,7 +65,8 @@ width: 100%;
       margin: 0;
   }
   input[type="number"] {
-      -moz-appearance: textfield;
+    // eslint-disable-next-line
+    -moz-appearance: textfield;
   }
 
   @media (min-width: 768px) {
